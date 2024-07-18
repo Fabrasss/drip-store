@@ -4,7 +4,7 @@ export default function OfertaEspecial(){
     return (
         <div className="container-oferta">
         <div className="img">
-            <img src={chuchu} alt="fundo" class="fundo" width="500px"/>
+            <img src={chuchu} alt="fundo" className="fundo" width="500px"/>
         </div>
         <div className="txt">
             <h3 className="corof">Oferta especial</h3>
