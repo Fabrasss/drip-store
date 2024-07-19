@@ -1,0 +1,71 @@
+h4{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+
+.container-destaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-2{
+    margin-top: 80px;
+}
+
+.banner-destaque{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(208, 226, 226);
+    /* width: 250px; */
+    /* height: 100px; */
+}
+
+.colecao-destaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.icon{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.botao-destaque{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    color: rgb(247, 6, 194);
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.botao-destaque:hover {
+    background-color: black; 
+}
+
+.desconto-destaque{
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(225, 250, 132)  ;
+}
+
+.img-destaque{
+    height: 90px;
+}

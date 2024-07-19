@@ -1,0 +1,26 @@
+.container-oferta {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.txt {
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 100px;
+    padding: 10px;
+    justify-content: end;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+
+}
+
+.button {
+    width: 150px;
+    background-color: rgb(211, 55, 211);
+    color: white
+}
