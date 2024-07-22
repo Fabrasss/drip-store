@@ -3,7 +3,7 @@
     width: 1440px;
     height: 192px;
     gap: 0px;
-    opacity: 0px;
+    opacity: 1;
   }
   .nav-1 {
     margin-left: 50px;
@@ -28,8 +28,8 @@
     top: 34px;
     left: 384px;
     border-radius: 8px;
-    opacity: 4%;
-    background: #474747;
+    opacity: 1;
+    background: #cac5c5;
   }
   #search::placeholder {
     width: 166px;
@@ -37,9 +37,8 @@
     top: 50px;
     left: 408px;
     gap: 0px;
-    opacity: 0.6%;
-    background: #666666;
-  }
+    opacity: 0.5;
+  }x
   .buttons {
     display: flex;
     justify-content: space-around;

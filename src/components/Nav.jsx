@@ -9,9 +9,7 @@ export default function Nav () {
                     <div>
                         <img className="image-logo" src= {logodigital} alt="Logo da Digital College" />
                     </div>
-                    <div>
-                        <input id="search" type="text" placeholder="Pesquisar produto..." />
-                    </div>
+                    <input id="search" type="text" placeholder="Pesquisar produto..." />
                     <div className="buttons">
                         <button className="register-button"><span className="text-button">Cadastre-se</span></button>
                         <button className="enter-button"><span className="text-button-2">Entrar</span></button>
