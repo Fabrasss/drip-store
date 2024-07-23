@@ -1,0 +1,50 @@
+
+.footer-bg-black {  /*fundo PRETO */
+  background-color: #000;
+}
+.footer-text-white { /*cor do texto como branco*/
+  color: #fff;
+}
+.footer-py-10 {  /*espaçamento interno (padding) */
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container { /*largura do elemento será 90% da largura da tela*/
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-flex { /* layout flexível ao elemento */
+  display: flex;
+}
+.footer-justify-around {  /* itens dentro de um contêiner flexível*/
+  justify-content: space-around;
+}
+.footer-max-w-xs {  /*define a largura máxima do elemento*/
+  max-width: 300px;
+}
+
+.footer-leading-relaxed { /* espaçamento entre linhas ao tamanho da fonte*/
+  line-height: 1.625;
+}
+.footer-space-x-4 > * + * { /*adiciona uma margem à esquerda de 16 pixels */
+  margin-left: 16px;
+}
+.footer-list-none {  /*remove os marcadores de lista*/
+  list-style: none;
+  padding: 0;
+}
+.footer-mb-2 { /*adiciona uma margem inferior */
+  margin-bottom: 8px;
+}
+.footer-text-center { /*texto centralizado*/
+  text-align: center;
+}
+.footer-py-4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
