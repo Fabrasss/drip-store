@@ -1,124 +1,128 @@
 .nav {
-    margin-top: 40px;
-    width: 1440px;
-    height: 192px;
-    gap: 0px;
-    opacity: 0px;
-  }
-  .nav-1 {
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-    align-items: center;
-  }
-  .nav-1 .image-logo {
-    width: 253px;
-    height: 44px;
-    top: 42px;
-    left: 104px;
-    gap: 0px;
-    opacity: 0px;
-    cursor: pointer;
-  }
-  #search {
-    width: 559px;
-    height: 44px;
-    top: 34px;
-    left: 384px;
-    border-radius: 8px;
-    opacity: 4%;
-    background: #474747;
-  }
-  #search::placeholder {
-    width: 166px;
-    height: 28px;
-    top: 50px;
-    left: 408px;
-    gap: 0px;
-    opacity: 0.6%;
-    background: #666666;
-  }
-  .buttons {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-  }
-  .register-button {
-    width: 115px;
-    height: 28px;
-    top: 50px;
-    left: 991px;
-    gap: 0px;
-    opacity: 0px;
-    color: #474747;
-    border: none;
-    background: none;
-    cursor: pointer;
-  }
-  .register-button .text-button {
-    opacity: 0px;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.75px;
-    text-align: left;
-    color: #474747;
-    text-decoration: underline;
-  }
-  .enter-button {
-    width: 114px;
-    height: 40px;
-    gap: 0px;
-    opacity: 0px;
-    border-radius: 8px;
-    background: #c92071;
-    color: #f5f5f5;
-    border: none;
-    cursor: pointer;
-  }
-  .enter-button .text-button-2 {
-    width: 114px;
-    height: 40px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0.75px;
-    text-align: center;
-  }
-  .icon-carrinho {
-    width: 33px;
-    height: 29px;
-    top: 47px;
-    left: 1307px;
-    gap: 0px;
-    opacity: 0px;
-    cursor: pointer;
-  }
-  .menu {
-    padding-top: 40px;
-    padding-left: 27px;
-    display: flex;
-  }
-  .menu-lista {
-    display: flex;
-    width: 423px;
-    height: 29px;
-    top: 134px;
-    left: 100px;
-    gap: 40px;
-    border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
-    list-style: none;
-    cursor: pointer;
-  }
-  .menu-lista li:hover {
-    color: #c92071;
-    text-decoration: underline;
-    font-weight: bold;
-  }
+  margin-top: 40px;
+  width: 100%;
+  height: 192px;
+  gap: 0px;
+  opacity: 0px;
+}
+.nav-1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  align-items: center;
+}
+.nav-1 .image-logo {
+  width: 253px;
+  height: 44px;
+  top: 42px;
+  left: 104px;
+  gap: 0px;
+  opacity: 0px;
+  cursor: pointer;
+}
+#search {
+  width: 559px;
+  height: 44px;
+  top: 34px;
+  left: 384px;
+  border-radius: 8px;
+  opacity: 0.2;
+  background: #474747;
+}
+#search::placeholder {
+  width: 500px;
+  height: 28px;
+  top: 50px;
+  margin-left: 200px;
+  gap: 0px;
+  opacity: 1;
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.register-button {
+  width: 115px;
+  height: 28px;
+  top: 50px;
+  left: 991px;
+  gap: 0px;
+  opacity: 0px;
+  color: #474747;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.register-button .text-button {
+  opacity: 0px;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #474747;
+  text-decoration: underline;
+}
+.enter-button {
+  width: 114px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 8px;
+  background: #c92071;
+  color: #f5f5f5;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.enter-button:hover {
+  background-color: #8a1b61;
+}
+.enter-button .text-button-2 {
+  width: 114px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  text-align: center;
+}
+.icon-carrinho {
+  width: 33px;
+  height: 29px;
+  top: 47px;
+  left: 1307px;
+  gap: 0px;
+  opacity: 0px;
+  cursor: pointer;
+}
+.menu {
+  padding-top: 40px;
+  padding-left: 27px;
+  display: flex;
+}
+.menu-lista {
+  display: flex;
+  width: 100%;
+  height: 29px;
+  top: 134px;
+  margin-left: 135px;
+  gap: 40px;
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+  list-style: none;
+  cursor: pointer;
+}
+.menu-lista li:hover {
+  color: #c92071;
+  text-decoration: underline;
+  font-weight: bold;
+}
