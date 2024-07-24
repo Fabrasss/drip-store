@@ -1,7 +1,7 @@
 .nav {
   margin-top: 40px;
   width: 100%;
-  height: 192px;
+  /* height: 192px; */
   gap: 0px;
   opacity: 0px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -14,6 +14,7 @@
   justify-content: space-around;
   gap: 40px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .nav-1 .image-logo {
   width: 253px;
