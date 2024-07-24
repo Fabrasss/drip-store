@@ -1,26 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import logodigital from "/logo-digital-college.png";
 import "./Header.css";
 import iconecarrinho from "/icone-carrinho.png";
 import Search from "/Search.png";
 
-// export default function Nav() {
-//   // Estado para armazenar a quantidade de itens no carrinho
-//   const [carrinho, setCarrinho] = useState(0);
-
-//   // Função para adicionar um item ao carrinho
-//   const adicionarItem = () => {
-//     setCarrinho(carrinho + 1);
-//   };
-
-
-export default function Header() {
-  // Estado para armazenar a quantidade de itens no carrinho
-  const [carrinho, setCarrinho] = useState(0);
-
-  const adicionarItem = () => {
-    setCarrinho(carrinho + 1);
-  };
+//O componente Header recebe um prop chamada 'carrinho' ela será usada para exibir a quantidade de itens no carrinho.
+export default function Header({ carrinho }) {
+  //retorna a estrutura da nav//
   return (
     <div>
       <div className="nav">
@@ -48,14 +34,13 @@ export default function Header() {
               <span className="text-button-2">Entrar</span>
             </button>
           </div>
-          <div className="icon-carrinho" onClick={adicionarItem}>
+          <div className="icon-carrinho">
             <img
               className="icone-carrinho"
               src={iconecarrinho}
               alt="icone de carrinho"
             />
-            <span>{carrinho}</span>{" "}
-            {/* Exibe a quantidade de itens no carrinho */}
+            <span>{carrinho}</span>
           </div>
         </div>
         <div className="menu">
@@ -86,5 +71,3 @@ export default function Header() {
     </div>
   );
 }
-
-
